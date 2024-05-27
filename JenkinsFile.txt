@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Design') {
+            steps {
+                echo 'Design Concept Car'
+            }
+        }
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
